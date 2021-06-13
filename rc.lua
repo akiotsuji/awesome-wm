@@ -27,7 +27,7 @@ local calendar_widget = require("widgets.calendar-widget.calendar")
 local brightness_widget = require("widgets.brightness-widget.brightness")
 
 -- Load the widget.
-local screenshot = require("widgets.awesomewm-screenshot.screenshot")
+local screenshot = require("widgets.screenshot-widget.screenshot")
 
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
