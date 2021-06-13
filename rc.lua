@@ -18,16 +18,16 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 local args = user_args
 
 -- battery widgets
-local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
+local batteryarc_widget = require("widgets.batteryarc-widget.batteryarc")
 
 -- calendar
-local calendar_widget = require("awesome-wm-widgets.calendar-widget.calendar")
+local calendar_widget = require("widgets.calendar-widget.calendar")
 
 -- backlight_widget
-local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness")
+local brightness_widget = require("widgets.brightness-widget.brightness")
 
 -- Load the widget.
-local screenshot = require("awesome-wm-widgets.awesomewm-screenshot.screenshot")
+local screenshot = require("widgets.awesomewm-screenshot.screenshot")
 
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
