@@ -1,0 +1,27 @@
+# Disable bell
+xset -b
+
+# Disable all Power Saving Stuff
+xset -dpms
+xset s off
+
+# X Root window color
+xsetroot -solid darkgrey
+
+# Merge resources (optional)
+#xrdb -merge $HOME/.Xresources
+# xdefault に書くのと同じ(しかしxresources は自分で呼び出し必要)
+
+# Caps to Ctrl, no caps
+setxkbmap -layout us -option ctrl:nocaps
+
+# Background Image (optional)
+# feh --bg-scale ~/Desktop/bg2.jpg
+
+# Launch a terminal session
+urxvt &
+google-chrome &
+#emacs &
+
+# Launch awesome
+exec awesome
