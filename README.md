@@ -1,1 +1,2 @@
 # awesome-wm
+## install
