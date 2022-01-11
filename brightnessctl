@@ -3,3 +3,6 @@
 ## 方法
 - /usr/lib/udev/rules.d/90-brightnessctl.rules
 - 上記ファイル内の%k を自身のディレクトリの名前に変更をすることで再起動後もbrightnessctl を使用できる
+
+### url
+https://www.reddit.com/r/archlinux/comments/fpklbs/brightnessctl_only_works_as_root/
