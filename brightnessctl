@@ -1,0 +1,5 @@
+# もし再起動後にsudo 権限が削除されbrightness がいじれない場合
+
+## 方法
+- /usr/lib/udev/rules.d/90-brightnessctl.rules
+- 上記ファイル内の%k を自身のディレクトリの名前に変更をすることで再起動後もbrightnessctl を使用できる
